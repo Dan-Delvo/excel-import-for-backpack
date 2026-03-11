@@ -21,11 +21,18 @@ Screenshots can be added later. The package is fully usable without published as
 
 ## Installation
 
+Prerequisites:
+
+- PHP ZIP extension enabled (`ext-zip`)
+- A Backpack v7 compatible Laravel application
+
 ``` bash
 composer require dan-delvo/excel-import-for-backpack
 ```
 
 The package uses Laravel auto-discovery, so no manual service provider registration is required.
+
+If Composer reports that `ext-zip` is missing, enable the ZIP extension in your CLI PHP installation and run the command again.
 
 If you want to customize the package views or config, publish them with:
 
