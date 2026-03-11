@@ -1,0 +1,48 @@
+{
+    "name": "dan-delvo/excel-import-for-backpack",
+    "description": "A Backpack CRUD operation for importing Excel and CSV files with header-to-column mapping.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Jaspher Delvo",
+            "email": "dandelvo12345@gmail.com",
+            "homepage": "dandelvo.me"
+        }
+    ],
+    "homepage": "https://github.com/dan--delvo/excel-import-for-backpack",
+    "keywords": [
+        "laravel", "backpack", "backpack-crud", "excel", "csv", "import"
+    ],
+    "require": {
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "backpack/crud": "^7.0",
+        "maatwebsite/excel": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0|^11.0",
+        "orchestra/testbench": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanDelvo\\ExcelImportForBackpack\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DanDelvo\\ExcelImportForBackpack\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --testdox"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DanDelvo\\ExcelImportForBackpack\\AddonServiceProvider"
+            ]
+        }
+    }
+}
+
+
+
