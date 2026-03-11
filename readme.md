@@ -126,8 +126,11 @@ This project was released under MIT, so you can install it on top of any Backpac
 However, please note that you do need Backpack installed, so you need to also abide by its [YUMMY License](https://github.com/Laravel-Backpack/CRUD/blob/master/LICENSE.md). That means in production you'll need a Backpack license code. You can get a free one for non-commercial use (or a paid one for commercial use) on [backpackforlaravel.com](https://backpackforlaravel.com).
 
 
-[ico-version]: https://img.shields.io/packagist/v/dan--delvo/excel-import-for-backpack.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/dan--delvo/excel-import-for-backpack.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/dan-delvo/excel-import-for-backpack.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/dan-delvo/excel-import-for-backpack.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/dan-delvo/excel-import-for-backpack
+[link-downloads]: https://packagist.org/packages/dan-delvo/excel-import-for-backpack
 
 [link-packagist]: https://packagist.org/packages/dan-delvo/excel-import-for-backpack
 [link-downloads]: https://packagist.org/packages/dan-delvo/excel-import-for-backpack
